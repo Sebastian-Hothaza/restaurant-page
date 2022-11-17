@@ -1,1 +1,3 @@
-console.log("Hello from Index.js");
+import { loadSite } from "./site";
+
+loadSite();
