@@ -33,10 +33,7 @@ function loadHome() {
     content.appendChild(homeDesc);
 
 
-
-    //<img src="images/csbk.jpg" alt="Motorcycle Racers" height="300">
-
-    // Attach them
+    // Attach
     main.appendChild(page);
 }
 

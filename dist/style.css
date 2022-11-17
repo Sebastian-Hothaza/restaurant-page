@@ -122,3 +122,47 @@ body{
 
 
 /* CONTACT */
+
+.contactBlock{
+    background-color: var(--background-dark);
+    border-radius: 20px;
+}
+
+.contactHeading{
+    display: flex;
+    justify-content: center;
+    margin: 20px 90px;
+    padding: 10px;
+    
+    color: var(--font-color);
+    font-size: 32px;
+    font-weight: 800;
+
+    border-bottom: solid 1px var(--font-color);
+
+}
+
+.contactContent{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 90px;
+    margin-bottom: 50px;
+    
+}
+
+.contactContent>img{
+    border-radius: 10px;
+}
+
+.contactContent>div{
+    width: 400px;
+    font-size: 24px;
+    color: var(--font-color);
+}
+
+.contactContent>div>div{
+    margin-top: 60px;
+    font-size: 36px;
+}
+
