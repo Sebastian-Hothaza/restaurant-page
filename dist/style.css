@@ -69,7 +69,7 @@ body{
 /* HOMEPAGE */
 
 .homeBlock{
-    margin-top: 120px;
+    margin: 120px 0px;
     background-color: var(--background-dark);
     border-radius: 20px;
 }
@@ -198,7 +198,7 @@ body{
 .contactBlock{
     background-color: var(--background-dark);
     border-radius: 20px;
-    margin-top: 120px;
+    margin: 120px 0px;
 }
 
 .contactHeading{
