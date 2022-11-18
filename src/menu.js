@@ -36,7 +36,7 @@ function loadMenu() {
 
     const cozonac = new menuItem('Cozonac','images/menuItems/cozonac.jpg',"A traditional Romanian dessert popular around Christmas time and Easter. But, you can still enjoy today! We won't tell anyone!",'$2.99');
     const televizor = new menuItem('Televizor','images/menuItems/televizor.jpg',"Lemon filled chololate tart sure to pleasure your senses.",'$2.99');
-    const eclair = new menuItem('Eclair','images/menuItems/kurtos.jpg',"French origin but loved by Romanians everywhere! Includes side custard dip.",'$1.99');
+    const eclair = new menuItem('Eclair','images/menuItems/eclair.jpg',"French origin but loved by Romanians everywhere! Includes side custard dip.",'$1.99');
 
     const mere = new menuItem('Apple Pie','images/menuItems/mere.jpg',"A classic, done right. Fresh apples baked to perfection and shredded for unique taste & texture",'$4.99');
     const cremsnit = new menuItem('Cremsnit','images/menuItems/cremsnit.jpg',"Puff pastry sandwiching delicious egg filling. Dusted lightly in powdered sugar.",'$5.99');
