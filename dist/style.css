@@ -20,7 +20,7 @@ body{
 .header{
     display: flex;
     justify-content: center;
-    padding: .5em;
+    padding-top: 30px;
 
     background-color: var(--background-dark);
     color: var(--font-color);
@@ -34,8 +34,7 @@ body{
 .navBar {
     display:flex;
     justify-content: center;
-    padding: 10px;
-    gap: 50px;
+    gap: 70px;
     background-color: var(--background-dark);
 }
 
@@ -69,7 +68,7 @@ body{
 /* HOMEPAGE */
 
 .homeBlock{
-    margin: 120px 0px;
+    margin: 110px 0px;
     background-color: var(--background-dark);
     border-radius: 20px;
 }
@@ -115,7 +114,7 @@ body{
 .menuBlock{
     background-color: var(--background-dark);
     border-radius: 20px;
-    margin: 120px 0px;
+    margin: 110px 0px;
 }
 
 .menuHeading{
@@ -198,7 +197,7 @@ body{
 .contactBlock{
     background-color: var(--background-dark);
     border-radius: 20px;
-    margin: 120px 0px;
+    margin: 110px 0px;
 }
 
 .contactHeading{
