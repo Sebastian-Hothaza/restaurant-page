@@ -17,7 +17,7 @@ function loadSite(){
 function createHeader(){
     const header = document.createElement('div');
     header.classList.add('header');
-    header.textContent = "Sibiu Sweets";
+    header.textContent = "- Sibiu Sweets -";
     return header;
 }
 

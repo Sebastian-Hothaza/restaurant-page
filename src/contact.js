@@ -34,7 +34,7 @@ function loadContact() {
     content.appendChild(contactDesc);
 
     const phoneNum = document.createElement('div');
-    phoneNum.textContent = "\r\n(123) 456-7890";
+    phoneNum.textContent = "\r\n(416) 381-2847";
     contactDesc.appendChild(phoneNum);
 
 

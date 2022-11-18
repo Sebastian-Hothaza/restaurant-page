@@ -59,25 +59,17 @@ body{
     transform: translateY(-15%);
 }
 
-#content{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
+
 
 .main{
     display: flex;
-
     justify-content: center;
-    align-items: center;
-
-    height: 100%;
-   
 }
 
 /* HOMEPAGE */
 
 .homeBlock{
+    margin-top: 120px;
     background-color: var(--background-dark);
     border-radius: 20px;
 }
@@ -120,12 +112,96 @@ body{
 /* MENU */
 
 
+.menuBlock{
+    background-color: var(--background-dark);
+    border-radius: 20px;
+    margin: 120px 0px;
+}
+
+.menuHeading{
+    display: flex;
+    justify-content: center;
+    margin: 20px 90px; 
+    padding: 10px; 
+    
+    color: var(--font-color);
+    font-size: 32px;
+    font-weight: 800;
+
+    border-bottom: solid 1px var(--font-color);
+
+}
+
+.menuItems{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 50px;
+    
+    
+    border-radius: 20px;
+
+    padding: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 20px;
+    gap: 5px;
+
+    background-color: var(--background-light);
+    color: var(--font-color);
+    transition: transform .5s;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.card:hover{
+    background-color: var(--background-light-hover);
+    transform: scale(1.1);
+}
+
+.cardHeading{
+    color: var(--font-color);
+    font-family: "Great Vibes", sans-serif;
+    font-size: 36px;
+    border-bottom: solid 2px var(--font-color);
+    margin-bottom: 25px;
+
+    text-align: center;
+    width: 100%;
+    flex-grow: 0;
+}
+
+.cardDesc{
+    color: var(--font-color);
+    align-self: flex-start;
+    margin-top: 20px;
+    flex-grow: 0;
+}
+
+.cardPrice{
+    display: flex;
+    flex-grow: 1;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    color: var(--font-color);
+    /* height: 100%; */
+    width: 100%;
+}
+
+
 
 /* CONTACT */
 
 .contactBlock{
     background-color: var(--background-dark);
     border-radius: 20px;
+    margin-top: 120px;
 }
 
 .contactHeading{
