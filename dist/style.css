@@ -127,9 +127,7 @@ body{
     color: var(--font-color);
     font-size: 32px;
     font-weight: 800;
-
     border-bottom: solid 1px var(--font-color);
-
 }
 
 .menuItems{
@@ -137,9 +135,8 @@ body{
     grid-template-columns: repeat(3, 300px);
     gap: 50px;
     
-    
-    border-radius: 20px;
 
+    border-radius: 20px;
     padding: 50px;
 }
 
@@ -190,7 +187,7 @@ body{
     align-items: flex-end;
     
     color: var(--font-color);
-    /* height: 100%; */
+
     width: 100%;
 }
 
